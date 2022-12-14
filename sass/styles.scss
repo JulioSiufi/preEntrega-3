@@ -1,0 +1,51 @@
+@import "general";
+@import "variablesgenerales";
+@import "estilostextos";
+@import "estilosimagenes";
+
+header{
+    padding: 4.5rem;
+    background-color: $colortapas  
+}
+
+.colorNav{
+    background-color: $colortapas
+}
+
+a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+footer nav{
+    padding: 3rem;
+    background-color: $colortapas;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly
+}
+
+.form1{
+    color: aliceblue;
+}
+
+   form{
+    font-size: 2rem;
+    color: black;
+   }
+
+.bloque{
+    background-color: tomato;
+    padding: 3rem;    
+    margin-top: 7rem; 
+    margin-bottom: 7rem;
+    }
+
+.map{
+    margin: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

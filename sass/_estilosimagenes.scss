@@ -1,0 +1,21 @@
+img{
+    border-radius: 1.5rem;
+}
+
+.realce{
+    overflow: hidden;
+}   
+
+.realce img{
+    transition: all 1.5s;
+}
+
+.realce:hover img{
+    transform: scale(1.5);
+}
+
+.imgType2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
